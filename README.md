@@ -6,7 +6,7 @@ This project demonstrates how to analyze an E-Commerce dataset using SQL to extr
 - Sales analysis by region, product category, and customer segment.
 - Profitability and ROI calculations.
 - Seasonality and sales growth trends.
-- 
+  
 ## Techniques and Components Used in Queries
 
 ## 1. Joins
@@ -20,7 +20,9 @@ Inner Join: Ensures only matching rows from both tables are included.
 Functions like SUM(), COUNT(), and AVG() are used to perform calculations on grouped data.
 
 SUM(): To calculate total sales or quantities.
+
 COUNT(): To count the number of orders, customers, etc.
+
 AVG(): To find average sales or profit margins.
 
 ## 3. Grouping
@@ -38,6 +40,7 @@ Window functions like ROW_NUMBER(), RANK(), and OVER() provide advanced analytic
 ## 6. Filtering
 
 WHERE Clause: To filter data based on conditions.
+
 HAVING Clause: To filter grouped data based on aggregate functions.
 
 ## 7. Date Functions
